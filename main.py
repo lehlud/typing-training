@@ -80,7 +80,7 @@ def main(stdscr):
     overflow_chars = ''
     while(True):
         key = stdscr.get_wch()
-        if key == 263:
+        if key == 263 or key == '\x7f':
             y, x = stdscr.getyx();
             try:
                 stdscr.move(y, x - 1);
