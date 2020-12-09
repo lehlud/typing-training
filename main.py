@@ -6,7 +6,6 @@ import names
 import random
 import curses
 import threading
-from termcolor import colored
 from curses import wrapper
 
 def char_at(string, index):
