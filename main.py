@@ -86,7 +86,8 @@ def main(stdscr):
                 stdscr.move(y, x - 1);
                 stdscr.clrtoeol();
                 typed_letters -= 1
-                if (index := x-1) in corrected_indices:
+                index = x - 1
+                if index in corrected_indices:
                     corrected_indices.remove(index)
                 elif len(overflow_chars) > 0: 
                     overflow_chars = overflow_chars[:-1]
