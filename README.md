@@ -1,2 +1,2 @@
 # typing-training
-A commandline appclication for speeding up your typing speed.
+A commandline appclication to help speed up your typing speed.
